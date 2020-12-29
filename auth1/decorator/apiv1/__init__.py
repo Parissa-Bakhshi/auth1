@@ -1,0 +1,1 @@
+from auth1.decorator.apiv1.auth import auth_required

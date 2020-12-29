@@ -1,0 +1,1 @@
+from auth1.schema.apiv1.user import UserSchema

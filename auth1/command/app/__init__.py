@@ -1,0 +1,1 @@
+from auth1.command.app.test import app_cli_test
