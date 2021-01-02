@@ -37,7 +37,7 @@ class AuthController:
                     },
                     Config.SECRET, 
                     algorithm=Config.JWT_ALGO 
-                )#.decode("utf8")  # data is binary, so it should be changed to utf-8
+                ).decode("utf8")  # data is binary, so it should be changed to utf-8
                 #print ("###########-2")
                 return { "user": user_schema.dump(user) }, 201, { "X-Subject-Token": jwt_token } # 201=created . this is body + header
 
